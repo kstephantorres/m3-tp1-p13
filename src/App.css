@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    flex-grow:1;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+.transparente{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;   
+    /* width: 75%; */
+  }

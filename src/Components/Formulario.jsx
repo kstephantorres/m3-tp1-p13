@@ -59,7 +59,7 @@ const Formulario = () => {
 
             <Form.Control
             required
-            minlength="4"
+            minlength="3"
             maxlength="40"
             type="text"
             value={ciudad}
@@ -74,7 +74,7 @@ const Formulario = () => {
 
             <Form.Control
             required
-            minlength="4"
+            minlength="3"
             maxlength="40"
             type="text"
             placeholder="Ej: Argentina"

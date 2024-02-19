@@ -59,6 +59,8 @@ const Formulario = () => {
 
             <Form.Control
             required
+            minlength="4"
+            maxlength="40"
             type="text"
             value={ciudad}
             placeholder="Ej: San Miguel de Tucuman"
@@ -72,6 +74,8 @@ const Formulario = () => {
 
             <Form.Control
             required
+            minlength="4"
+            maxlength="40"
             type="text"
             placeholder="Ej: Argentina"
             value={pais}
